@@ -7,3 +7,4 @@ img1.jpg - background image to the product page
 260196.jpg - background image to the about page
 img3.jpg - testimonials in the product page
 img4.jpg - testimonials in the product page
+cart.jpg - background image to the Checkout page
