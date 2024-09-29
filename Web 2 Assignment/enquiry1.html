@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>CIT-223-088/2022 BRENDA JEMUTAI CHUMBA</title>
+    <link rel="stylesheet" href="styles2.css"> 
+</head>
+
+<body background = "260226.jpg">
+    <center>
+        <a href="index.html">HOME</a> | <a href="product.html">PRODUCT DESCRIPTION</a> | <a href="about.html">ABOUT</a>|<A href = "checkout.html">CHECKOUT</A>
+    </center>
+    <h1>ENQUIRY FORM</h1>
+    <p>If you have any questions or doubts, please complete the form below.<br>Kindly note that enquiry forms are checked during business hours.
+    <p>In case of an urgency, kindly access our "CONTACT US" page for quick assistance.<br>
+	
+     <div class="form-container">
+	 <form>
+        <p><b>FIRST NAME<font color="red">*</font>:</b>
+        <input type="text" name="fname" required>
+
+        <p><b>LAST NAME<font color="red">*</font>:</b>
+        <input type="text" name="lname" required>
+
+        <p><b>PHONE NUMBER<font color="red">*</font>:</b>
+        <input type="text" name="no" required>
+
+       <p> <b>EMAIL ADDRESS:</b>
+        <input type="text" name="email">
+
+        <p><b>Preferred Contact Time<font color="red">*</font>:</b>
+        <select name="contact_time" required>
+            <option value="Emorning">Early Morning (6am to 8am)</option>
+            <option value="Lmorning">Late Morning (9am to 11am)</option>
+            <option value="Eafternoon">Afternoon (12pm to 4pm)</option>
+            <option value="Lafternoon">Anytime</option>
+        </select>
+
+       <p><b>Preferred Contact Method:</b>
+        <select name="contact_method">
+            <option value="call">Phone Call</option>
+            <option value="email">Email</option>
+        </select>
+		<p>In case you need to upload your queries instead using a pre-generated file, please proceed below:
+		      <label for="file-upload">Upload File:</label>
+        <input type="file" id="file-upload" name="file-upload" accept="*"><br><br>
+
+        <!-- Date Picker -->
+        <label for="date-picker">Select preferred contact date:</label>
+        <input type="date" id="date-picker" name="date-picker"><br><br>
+
+        <p><b>Enquiry:</b>
+        <p><textarea rows="5" cols="40" name="enquiry">Fill in your enquiry</textarea>
+
+        <p><input type="reset" value="CLEAR DATA">
+        <center><input type="submit" value="SUBMIT FORM"></center>
+    </form>
+</body>
+
+</html>

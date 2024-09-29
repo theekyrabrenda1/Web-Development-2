@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>CIT-223-088/2022 BRENDA JEMUTAI CHUMBA</title>
+<link rel="stylesheet" href="styles.css">
+<script language = "JavaScript">
+document.write("<h1 align = 'center'>Checkout</h1>")
+var no = prompt("Enter the number of sprays that you wish to order:")
+var price = (2000)
+var myloc = "Nairobi"
+var cusloc = prompt("Enter your current location:")
+var output = (parseInt(no) * parseInt(price))
+if (cusloc != myloc)
+{
+	document.write("The amount to be paid is ksh." +(output + 300))
+}
+else
+{
+	document.write("The amount to be paid is ksh." + output)
+}
+
+
+
+</script>
+
+</head>
+<body background = "cart.jpg">
+<center><A href = "index.html">HOME</A> |<A href = "product.html">PRODUCT DESCRIPTION</A>| <A href = "enquiry1.html">ENQUIRIES </A> | <A href = "about.html">ABOUT</a></center>
+<P>Product price is ksh.2000. The product delivery fee within NAIROBI is ksh.0.
+<p>Product delivery fee outside Nairobi is ksh.300.
+<p>To our esteemed customers, kindly note that payment is done before delivery.
+
+</body>
+</html>
